@@ -19,6 +19,7 @@ The following software will be installed on each laptop (this will be done durin
 * Node.js https://nodejs.org/en/download/ 
 
 The following items will need to be purchased for each attendee:
+
 |Qty|Item|Link|
 |---|----|----|
 |$35.96 ea. (in qty. of 25+)|Azure IoT Starter Kit – SparkFun Thing|https://www.sparkfun.com/products/13799|
