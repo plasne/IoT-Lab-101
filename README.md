@@ -54,5 +54,16 @@ The following items will need to be purchased for each attendee:
   4. Apply the code to communicate to Azure (use [report_to_iothub.ino](report_to_iothub.ino))
   5. Change the values at the top of the file as appropriate (WiFi SSD, WiFi password, deviceId, connection string)
   6. Monitor the events: iothub-explorer "HostName=pelasne-iothub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=<key>" monitor-events <deviceId>
-  7. You should be able to rotate the dial on the circuit and notice that the events are sent to the Azure IoT Hub
+    * You should be able to rotate the dial on the circuit and notice that the events are sent to the Azure IoT Hub
 
+4. 
+
+## References
+You can find more information at these links:
+* Azure IoT Hub https://azure.microsoft.com/en-us/services/iot-hub/
+* ESP8266 Azure IoT Hub samples https://github.com/stefangordon/AzureIoT/tree/master/examples/esp8266
+* Get Started with Azure IoT Sparkfun Kit https://azure.microsoft.com/en-us/documentation/samples/iot-hub-c-thingdev-getstartedkit/
+* Azure IoT Hub Arduino Libraries https://github.com/arduino-libraries/AzureIoTHub
+* Azure IoT Hub SDK for C http://azure.github.io/azure-iot-sdks/c/api_reference/iothub__client__ll_8h.html#aa7773cdda101288cfd805c34f726eb84
+* Intro to IoT Hub SDK for C https://azure.microsoft.com/en-us/documentation/articles/iot-hub-device-sdk-c-intro/
+* IoT Hub Client Source Code https://github.com/Azure/azure-iot-sdks/tree/master/c/iothub_client/src
