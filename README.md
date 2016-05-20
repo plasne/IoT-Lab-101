@@ -36,4 +36,4 @@ The following items will need to be purchased for each attendee:
 2. Working with the board (ESP8266 WiFi)
   1. Download and install the Arduino IDE (https://www.arduino.cc/en/Main/Software)
   2. Download and install the ESP8266 Board Manager (http://arduino.esp8266.com/stable/package_esp8266com_index.json)
-  3. Configure the board per https://learn.sparkfun.com/tutorials/esp8266-thing-development-board-hookup-guide/setting-up-arduino
+  3. Configure the board per https://learn.sparkfun.com/tutorials/esp8266-thing-development-board-hookup-guide/setting-up-arduino ![board settings](/images/board-settings.png)
