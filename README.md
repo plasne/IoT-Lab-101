@@ -43,10 +43,16 @@ The following items will need to be purchased for each attendee:
 
   4. Test connectivity to the board (use [verify_connectivity.ino](verify_connectivity.ino))
   5. Build a circuit with a dial for input and warning lamps (build [circuit.md](circuit.md))
+    * You should be able to rotate the dial on the circuit and notice that the warning lamps come on as expected
 
 3. Sending the data to Azure IoT Hub
-  1. Install Node.js (https://nodejs.org/en/download)
+  1. Download and install Node.js (https://nodejs.org/en/download)
   2. Install iothub-explorer: npm install -g iothub-explorer
-  2. Each attendee should register their device with the IoT Hub
-    1. iothub-explorer login "HostName=pelasne-iothub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=?????"
-    2. iothub-explorer create ????? --connection-string
+  3. Each attendee should register their device with the IoT Hub
+    1. iothub-explorer login "HostName=pelasne-iothub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=<key>"
+    2. iothub-explorer create <deviceId> --connection-string
+  4. Apply the code to communicate to Azure (use [report_to_iothub.ino](report_to_iothub.ino))
+  5. Change the values at the top of the file as appropriate (WiFi SSD, WiFi password, deviceId, connection string)
+  6. Monitor the events: iothub-explorer "HostName=pelasne-iothub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=<key>" monitor-events <deviceId>
+  7. You should be able to rotate the dial on the circuit and notice that the events are sent to the Azure IoT Hub
+
