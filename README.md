@@ -40,7 +40,13 @@ The following items will need to be purchased for each attendee:
   3. Configure the board per https://learn.sparkfun.com/tutorials/esp8266-thing-development-board-hookup-guide/setting-up-arduino
 
     ![board settings](/images/board-settings.png)
-    **figure 1** the new keyboard..wonder if it's good
 
   4. Test connectivity to the board (use [verify_connectivity.ino](verify_connectivity.ino))
   5. Build a circuit with a dial for input and warning lamps (build [circuit.md](circuit.md))
+
+3. Sending the data to Azure IoT Hub
+  1. Install Node.js (https://nodejs.org/en/download)
+  2. Install iothub-explorer: npm install -g iothub-explorer
+  2. Each attendee should register their device with the IoT Hub
+    1. iothub-explorer login "HostName=pelasne-iothub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=?????"
+    2. iothub-explorer create ????? --connection-string
