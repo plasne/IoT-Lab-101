@@ -24,7 +24,7 @@ The following software will be installed on each laptop (this will be done durin
 The following items will need to be purchased for each attendee:
 
 |Cost|Item|Link|
-|---|----|----|
+|----|----|----|
 |$35.96 ea. (in qty. of 25+)|Azure IoT Starter Kit – SparkFun Thing|https://www.sparkfun.com/products/13799|
 |$0.90 ea (in qty. of 25+)|Trimpot 10K with Knob|https://www.sparkfun.com/products/9806|
 
