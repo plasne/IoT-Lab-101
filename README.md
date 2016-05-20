@@ -27,7 +27,6 @@ The following items will need to be purchased for each attendee:
 1. Designing solutions (link to presentation)
 
   a. Introduce IoT and some specific scenarios and implementations
-  
   b. Discuss the specific implementation we will try today
   
 2. Working with the board (ESP8266 WiFi)
