@@ -23,6 +23,7 @@ The following items will need to be purchased for each attendee:
 * $0.90 ea (in qty. of 25+) – Trimpot 10K with Knob https://www.sparkfun.com/products/9806 
 
 ## Agenda
+
 1. Designing solutions (link to presentation)
   a. Introduce IoT and some specific scenarios and implementations
   b. Discuss the specific implementation we will try today
