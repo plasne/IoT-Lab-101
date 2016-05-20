@@ -19,14 +19,15 @@ The following software will be installed on each laptop (this will be done durin
 * Node.js https://nodejs.org/en/download/ 
 
 The following items will need to be purchased for each attendee:
-* $35.96 ea. (in qty. of 25+) – Azure IoT Starter Kit – SparkFun Thing https://www.sparkfun.com/products/13799 
-* $0.90 ea (in qty. of 25+) – Trimpot 10K with Knob https://www.sparkfun.com/products/9806 
+|Qty|Item|Link|
+|---|----|----|
+|$35.96 ea. (in qty. of 25+)|Azure IoT Starter Kit – SparkFun Thing|https://www.sparkfun.com/products/13799|
+|$0.90 ea (in qty. of 25+)|Trimpot 10K with Knob|https://www.sparkfun.com/products/9806|
 
 ## Agenda
 
-1. Designing solutions (link to presentation)
-
-  a. Introduce IoT and some specific scenarios and implementations
+1. Designing solutions (link to presentation) 
+  a. Introduce IoT and some specific scenarios and implementations 
   b. Discuss the specific implementation we will try today
   
 2. Working with the board (ESP8266 WiFi)
