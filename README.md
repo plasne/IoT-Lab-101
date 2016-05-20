@@ -33,7 +33,11 @@ The following items will need to be purchased for each attendee:
 1. Designing solutions (link to presentation)
   1. Introduce IoT and some specific scenarios and implementations
   2. Discuss the specific implementation we will try today
+
 2. Working with the board (ESP8266 WiFi)
   1. Download and install the Arduino IDE (https://www.arduino.cc/en/Main/Software)
   2. Download and install the ESP8266 Board Manager (http://arduino.esp8266.com/stable/package_esp8266com_index.json)
-  3. Configure the board per https://learn.sparkfun.com/tutorials/esp8266-thing-development-board-hookup-guide/setting-up-arduino ![board settings](/images/board-settings.png)
+  3. Configure the board per https://learn.sparkfun.com/tutorials/esp8266-thing-development-board-hookup-guide/setting-up-arduino
+  ![board settings](/images/board-settings.png)
+  4. Test connectivity to the board (use [verify_connectivity.ino](verify_connectivity.ino))
+  4. Build a circuit with a dial for input and warning lamps (build [circuit](circuit.md))
