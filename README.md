@@ -14,9 +14,12 @@ Each attendee will need to bring following items to the event:
 * A laptop (Windows, OS X, or Linux is fine) with a USB port.
 
 The following software will be installed on each laptop (this will be done during the event):
-* Arduino IDE v1.6.8+ https://www.arduino.cc/en/Main/Software 
-* ESP8266 Board Manager http://arduino.esp8266.com/stable/package_esp8266com_index.json 
-* Node.js https://nodejs.org/en/download/ 
+
+|Software|Link|
+|--------|----|
+|Arduino IDE v1.6.8+|https://www.arduino.cc/en/Main/Software|
+|ESP8266 Board Manager|http://arduino.esp8266.com/stable/package_esp8266com_index.json|
+|Node.js|https://nodejs.org/en/download|
 
 The following items will need to be purchased for each attendee:
 
