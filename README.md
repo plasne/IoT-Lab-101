@@ -62,7 +62,7 @@ The following items will need to be purchased for each attendee:
     1. Discuss hot path/cold path
     2. Discuss inputs/outputs
     3. Show queries for Stream Analytics [stream_analytics.sql](stream_analytics.sql)
-    4. Discuss windows [event-windows.md](event-windows.md)
+    4. Discuss windows [event_windows.md](event_windows.md)
   3. Discuss Azure SQL Database
   4. Discuss Power BI
     1. Talk about real-time vs. stored data
