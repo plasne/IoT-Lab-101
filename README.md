@@ -56,7 +56,16 @@ The following items will need to be purchased for each attendee:
   6. Monitor the events: iothub-explorer "HostName=pelasne-iothub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=<key>" monitor-events <deviceId>
     * You should be able to rotate the dial on the circuit and notice that the events are sent to the Azure IoT Hub
 
-4. 
+4. Handling the data in Azure
+  1. Discuss Azure Event Hubs
+  2. Discuss Azure Stream Analytics
+    1. Discuss hot path/cold path
+    2. Discuss inputs/outputs
+    3. Show queries for Stream Analytics [stream_analytics.sql](stream_analytics.sql)
+    4. Discuss windows [event-windows.md](event-windows.md)
+  3. Discuss Azure SQL Database
+  4. Discuss Power BI
+    1. Talk about real-time vs. stored data
 
 ## References
 You can find more information at these links:
