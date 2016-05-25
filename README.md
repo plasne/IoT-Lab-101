@@ -49,11 +49,11 @@ The following items will need to be purchased for each attendee:
   1. Download and install Node.js (https://nodejs.org/en/download)
   2. Install iothub-explorer: npm install -g iothub-explorer
   3. Each attendee should register their device with the IoT Hub
-    1. iothub-explorer login "HostName=pelasne-iothub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=<key>"
-    2. iothub-explorer create <deviceId> --connection-string
+    1. iothub-explorer login "HostName=pelasne-iothub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=\<key\>"
+    2. iothub-explorer create \<deviceId\> --connection-string
   4. Apply the code to communicate to Azure (use [report_to_iothub.ino](report_to_iothub.ino))
   5. Change the values at the top of the file as appropriate (WiFi SSD, WiFi password, deviceId, connection string)
-  6. Monitor the events: iothub-explorer "HostName=pelasne-iothub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=<key>" monitor-events <deviceId>
+  6. Monitor the events: iothub-explorer "HostName=pelasne-iothub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=\<key\>" monitor-events \<deviceId\>
     * You should be able to rotate the dial on the circuit and notice that the events are sent to the Azure IoT Hub
 
 4. Handling the data in Azure
@@ -62,7 +62,7 @@ The following items will need to be purchased for each attendee:
     1. Discuss hot path/cold path
     2. Discuss inputs/outputs
     3. Show queries for Stream Analytics [stream_analytics.sql](stream_analytics.sql)
-    4. Discuss windows [event-windows.md](event-windows.md)
+    4. Discuss windows [event_windows.md](event_windows.md)
   3. Discuss Azure SQL Database
   4. Discuss Power BI
     1. Talk about real-time vs. stored data
