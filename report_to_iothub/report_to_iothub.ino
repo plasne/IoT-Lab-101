@@ -11,6 +11,9 @@ const char* PASSWORD = "?????";
 static const char* deviceId = "device01";
 static const char* connectionString = "HostName=pelasne-iothub.azure-devices.net;DeviceId=device01;SharedAccessKey=????????";
 
+// forward declarations
+class widget;
+
 // define the data model
 BEGIN_NAMESPACE(wfi);
   DECLARE_MODEL(widget,
