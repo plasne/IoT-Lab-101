@@ -8,8 +8,8 @@ const char* SSID = "?????";
 const char* PASSWORD = "?????";
 
 // IoT Hub config
-static const char* deviceId = "device01";
-static const char* connectionString = "HostName=pelasne-iothub.azure-devices.net;DeviceId=device01;SharedAccessKey=????????";
+static const char* deviceId = "???????";
+static const char* connectionString = "HostName=pelasne-iothub.azure-devices.net;DeviceId=????????;SharedAccessKey=????????";
 
 // forward declarations
 class widget;
