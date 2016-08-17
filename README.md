@@ -49,11 +49,12 @@ The following items will need to be purchased for each attendee:
   1. Download and install Node.js (https://nodejs.org/en/download)
   2. Install iothub-explorer: npm install -g iothub-explorer
   3. Each attendee should register their device with the IoT Hub
-    1. iothub-explorer login "HostName=pelasne-iothub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=gPBOCSjB/A2ElItm5y7N2tH7EbAwYVeuuv+M+iKiF04="
+    1. iothub-explorer login "HostName=pelasne-iothub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=\<key\>"
     2. iothub-explorer create \<deviceId\> --connection-string
   4. Apply the code to communicate to Azure (use [report_to_iothub.ino](report_to_iothub/report_to_iothub.ino))
   5. Change the values at the top of the file as appropriate (WiFi SSD, WiFi password, deviceId, connection string)
   6. Monitor the events: iothub-explorer "HostName=pelasne-iothub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=\<key\>" monitor-events \<deviceId\>
+  7. In the Arduino software, go to Sketch - Include Library - Manage Libraries, search for "AzureIoTHub" and install the latest version.
     * You should be able to rotate the dial on the circuit and notice that the events are sent to the Azure IoT Hub
 
 4. Handling the data in Azure
